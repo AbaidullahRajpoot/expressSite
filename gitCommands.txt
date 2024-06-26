@@ -46,4 +46,9 @@
 0)git diff "compare branch name"             <---To Compare Branch --->
 1)git merge "compare branch name"             <---To Merging 2 Branch --->
 
+==========Git Pull Command==============
+
+0)git pull origin main             <---Get Data github to VSCode--->
+
+
 
