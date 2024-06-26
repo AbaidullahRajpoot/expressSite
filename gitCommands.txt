@@ -1,0 +1,15 @@
+============================Git Commands===============================
+
+==========For Config==============
+
+0)git --version
+1)git config --global user.name  "username"
+2)git config --global user.email  "useremail"
+3)git config --list
+
+==========Clone & Status==============
+
+0)git clone "somelink"
+1)git status
+2)git config --global user.email  "useremail"
+3)git config --list
