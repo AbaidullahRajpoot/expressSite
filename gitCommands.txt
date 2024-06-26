@@ -39,6 +39,11 @@
 1)git branch -M "name"               <---Branch Rename--->
 2)git checkout "branch name"         <---Branch navigate--->
 3)git checkout -b "branch name"      <---Branch create---> 
-4)git branch -d "branch name"        <--- To Delete Branch---> 
+4)git branch -d "branch name"        <--- To Delete Branch--->
+
+==========Git Merging Branch==============
+
+0)git diff "branch name"             <---To Compare Branch --->
+1)git merge "branch name"             <---To Merging 2 Branch --->
 
 
