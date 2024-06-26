@@ -11,5 +11,9 @@
 
 0)git clone "somelink"
 1)git status
-2)git config --global user.email  "useremail"
-3)git config --list
+
+==========Add & Commit==============
+
+0)git add "filename"
+0)git add .  For All File
+1)git commit -m "some message"
