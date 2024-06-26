@@ -30,7 +30,7 @@
 
 ==========Push==============
 
-0)git push origin main
+0)git push origin main               <---Push Code--->
 1)git push -u origin main            <---For long term use only git push just set origin main first time using this command--->
 
 ==========Git Branch==============
@@ -39,6 +39,6 @@
 1)git branch -M "name"               <---Branch Rename--->
 2)git checkout "branch name"         <---Branch navigate--->
 3)git checkout -b "branch name"      <---Branch create---> 
-4)git branch -d "branch name"      <--- To Delete Branch---> 
+4)git branch -d "branch name"        <--- To Delete Branch---> 
 
 
