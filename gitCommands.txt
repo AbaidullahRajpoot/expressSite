@@ -20,7 +20,7 @@
 4)git branch
 5)git branch -M "name"
 6)git push origin main
-6)git push -u origin main            <---For long term use only git push just set origin main first time using this command--->
+7)git push -u origin main            <---For long term use only git push just set origin main first time using this command--->
 
 ==========Add & Commit==============
 
@@ -43,7 +43,7 @@
 
 ==========Git Merging Branch==============
 
-0)git diff "branch name"             <---To Compare Branch --->
-1)git merge "branch name"             <---To Merging 2 Branch --->
+0)git diff "compare branch name"             <---To Compare Branch --->
+1)git merge "compare branch name"             <---To Merging 2 Branch --->
 
 
