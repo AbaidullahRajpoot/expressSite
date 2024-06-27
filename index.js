@@ -1,6 +1,7 @@
 import express from "express"
 import router from "./routes/web.js"
-import { join } from 'path'
+import { join,dirname  } from 'path'
+import { fileURLToPath } from 'url';
 
 //================Initialize Express ==============
 
@@ -10,7 +11,7 @@ const port = process.env.PORT || '30002'
 //================Tell what engine am using ==============
 
 // Set views directory
-
+const __dirname = dirname(fileURLToPath(import.meta.url));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
