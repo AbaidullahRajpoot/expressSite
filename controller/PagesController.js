@@ -1,6 +1,6 @@
 const HomePage = (req, res) => {
     try {
-        res.render('index')
+        res.send("working Controller")
     } catch (error) {
         console.log(error)
     }
