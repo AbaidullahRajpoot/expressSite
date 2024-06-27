@@ -11,7 +11,9 @@ const router = express.Router()
 
 //============Pages===================
 
-router.get('/', HomePage)
+router.get('/', (req,res)=>{
+ res.send("working")
+})
 router.get('/category', CategoryPage)
 router.get('/single', SinglePage)
 router.get('/search', SearchPage)
