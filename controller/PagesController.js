@@ -1,6 +1,6 @@
 const HomePage = (req, res) => {
     try {
-        res.render('index.ejs')
+        res.render('index')
     } catch (error) {
         console.log(error)
     }
