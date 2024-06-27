@@ -11,7 +11,7 @@ const port = process.env.PORT || '30002'
 
 // Set views directory
 
-app.set('views', './views');
+app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 //================Use Static File ==============
